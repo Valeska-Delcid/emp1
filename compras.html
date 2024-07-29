@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras de Ropa - Alexandra Fashion</title>
+    <!-- Enlace opcional a tu archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Enlace a una biblioteca de iconos (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Estilos en línea para el ejemplo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #FF97D8;
+            color: #000000;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+            margin: 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 24px;
+        }
+
+        nav ul li a:hover {
+            background-color: #EBCCFC;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .centered-text {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        .animated-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .product {
+            width: 300px;
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product p {
+            margin-top: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .product button {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            background-color: #FF97D8;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .product button:hover {
+            background-color: #EBCCFC;
+        }
+
+        footer {
+            background-color: #FF97D8;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        .redes-sociales a {
+            color: #1A2227;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .redes-sociales a:hover {
+            color: #EBCCFC;
+        }
+.social-media a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            border: 2px solid white;
+            padding: 8px;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            background-color: white;
+            color: #9370DB;
+        }
+
+        .social-media img {
+            width: 20px;
+            height: 20px;
+        }
+  .footer-social {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .footer-social .social-media {
+            display: flex;
+            gap: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos a Alexandra Fashion</h1>
+    <!-- Cambia "C:\Users\alexa\Downloads\fashion-logo-design-template-c8545e8dec8c50c75d1b62721f3e1bc3_screen.jpg" por la ruta de tu logo -->
+    <img src="C:\Users\alexa\Downloads\logotipo marca personal mujer emprendedora elegante minimalista moderno tipografico color negro y rosa.png" alt="Logo de tu empresa">
+    <nav>
+        <ul>
+               <li><a href="index.html" style="font-size: 24px;">Inicio</a></li>
+            <li><a href="Conocenos.html" style="font-size: 24px;">Conócenos</a></li>
+            <li><a href="servicios.html" style="font-size: 24px;">Servicios</a></li>
+            <li><a href="contacto.html" style="font-size: 24px;">Contáctanos</a></li>
+
+
+
+
+
+
+            <!-- Agrega más elementos de lista según sea necesario -->
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2 class="centered-text">Compras de Ropa</h2>
+
+    <div class="animated-section">
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\China-Manufacturer-Wholesale-Custom-Made-Mini-Ropa-Vestidos-Sexy-Summer-Casual-Ladies-Fashion-Beautiful-Clothes-Apparel-New-Design-Guangzhou-Evening-Women-Dress.jpg" alt="Producto 1">
+            <p>Vestido Blanco</p>
+            <p>250 LPS</p>
+            <button class="buy-button" data-product="Vestido Blanco" data-price="250 LPS">Comprar</button>
+            <button class="cart-button" data-product="Vestido Blanco" data-price="250 LPS">Añadir al carrito</button>
+        </div>
+        
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\c93944ef-4453-4dab-abfd-edbf12ea30ed.webp" alt="Producto 2">
+            <p>Vestido de 15 años</p>
+            <p>20,000 LPS</p>
+            <button class="buy-button" data-product="Vestido de 15 años" data-price="20,000 LPS">Comprar</button>
+            <button class="cart-button" data-product="Vestido de 15 años" data-price="20,000 LPS">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\006ceb8f-0ce7-4a79-99ae-d78321313e94.webp" alt="Producto 3">
+            <p>Vestido de gala</p>
+            <p>5000 LPS</p>
+            <button class="buy-button" data-product="Vestido de gala" data-price="5000 LPS">Comprar</button>
+            <button class="cart-button" data-product="Vestido de gala" data-price="5000 LPS">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\Vestidos-de-fiesta-2024-Silvia-Fernandez-Bella-3.webp" alt="Producto 4">
+            <p>Vestido de día</p>
+            <p>2500 LPS</p>
+            <button class="buy-button" data-product="Vestido de día" data-price="2500 LPS">Comprar</button>
+            <button class="cart-button" data-product="Vestido de día" data-price="2500 LPS">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\vestido-de-fiesta-juan-marcos-modelo-2711_pic374727ni0t0.jpg" alt="Producto 5">
+            <p>Vestido veranero</p>
+            <p>500 LPS</p>
+            <button class="buy-button" data-product="Vestido veranero" data-price="500 LPS">Comprar</button>
+            <button class="cart-button" data-product="Vestido veranero" data-price="500 LPS">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\image_02c175ba-3cc5-494f-9056-f8d0169d64ff_800x.webp" alt="Producto 6">
+            <p>Vestido para graduación</p>
+            <p>6000 LPS</p>
+            <button class="buy-button" data-product="Vestido para graduación" data-price="6000 LPS">Comprar</button>
+            <button class="cart-button" data-product="Vestido para graduación" data-price="6000 LPS">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\images.jpg" alt="Producto 7">
+            <p>Vestido blando</p>
+            <p>300 LPS</p>
+            <button class="buy-button" data-product="Vestido blando" data-price="300 LPS">Comprar</button>
+            <button class="cart-button" data-product="Vestido blando" data-price="300 LPS">Añadir al carrito</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\alexa\Downloads\516mD7s-7RL._AC_SY580_.jpg" alt="Producto 8">
+            <p>Vestido azul</p>
+            <p>350 LPS</p>
+            <button class="buy-button" data-product="Vestido azul" data-price="350 LPS">Comprar</button>
+           
+        </div>
+    </div>
+</main>
+
+  <footer>
+        <p>&copy; 2024 Mi Sitio Web.</p>
+        <div class="social-media">
+            <a href="https://m.facebook.com/profile.php?mibextid=LQQJ4d" target="_blank"><img src="C:\Users\alexa\Downloads\2023_Facebook_icon.svg" alt="Facebook"></a>
+            <a href="https://x.com/aledelcid__?s=21" target="_blank"><img src="C:\Users\alexa\Downloads\twitter-bird-white-on-blue.webp"></a>
+            <a href="https://x.com/aledelcid__?s=21" target="_blank"><img src="C:\Users\alexa\Downloads\Instagram_logo_2016.svg.webp" alt="Instagram"></a>
+        </div>
+    </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const buyButtons = document.querySelectorAll('.buy-button');
+        
+        buyButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const product = button.getAttribute('data-product');
+                const price = button.getAttribute('data-price');
+                // Redirigir a una página de pago con los detalles del producto y el precio
+                window.location.href = `pago.html?product=${encodeURIComponent(product)}&price=${encodeURIComponent(price)}`;
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
